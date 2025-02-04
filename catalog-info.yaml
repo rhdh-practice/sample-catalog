@@ -1,10 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-service
+  name: sample-blog
   description: デモンストレーション用のサービスです
   labels:
-    app: example
+    app: sample-blog
+  links:
+    - url: https://console-openshift-console.apps.rosa.sb961-hcp.611c.p3.openshiftapps.com/k8s/cluster/projects/sample-blog
+      title: OpenShift Console
+      icon: dashboard
+    - url: https://nginx-sample-blog.apps.rosa.sb961-hcp.611c.p3.openshiftapps.com
+      title: Application Web Site
+      icon: dashboard
+    - url: https://github.com/skitamura7446/sample-blog
+      title: App Repository
+      icon: github
+  annotations:
+    backstage.io/kubernetes-namespace: sample-blog
 spec:
   type: website
   owner: user:default/skitamura7446
