@@ -16,7 +16,7 @@ metadata:
       title: App Repository
       icon: github
   annotations:
-    backstage.io/kubernetes-id: sb961-hcp
+    backstage.io/kubernetes-id: sample-blog
     backstage.io/kubernetes-namespace: sample-blog
 spec:
   type: website
