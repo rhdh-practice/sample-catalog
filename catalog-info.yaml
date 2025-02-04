@@ -7,5 +7,5 @@ metadata:
     app: example
 spec:
   type: service
-  owner: team-a
+  owner: user:default/skitamura7446
   lifecycle: production
